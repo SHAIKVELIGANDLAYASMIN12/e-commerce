@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Panel</title>
+</head>
+<body>
+
+<h2>Admin Panel</h2>
+
+<!-- Logout link -->
+<a href="/logout">Logout</a>
+
+<hr>
+
+<!-- Add Question Form -->
+<form method="post">
+    <label>Question</label><br>
+    <input type="text" name="question"><br><br>
+
+    <label>Option A</label><br>
+    <input type="text" name="o1"><br><br>
+
+    <label>Option B</label><br>
+    <input type="text" name="o2"><br><br>
+
+    <label>Option C</label><br>
+    <input type="text" name="o3"><br><br>
+
+    <label>Option D</label><br>
+    <input type="text" name="o4"><br><br>
+
+    <label>Correct Option</label><br>
+    <input type="text" name="ans"><br><br>
+
+    <button type="submit">Add Question</button>
+</form>
+
+<hr>
+
+<!-- IMPORTANT: This must be OUTSIDE the form -->
+<a href="/quiz">
+    <button type="button">Finish & Go to Quiz</button>
+</a>
+
+</body>
+</html>
